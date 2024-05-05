@@ -9,9 +9,7 @@ export type Perk = {
 
 export type Item = {
   name: string;
-  info: string;
   rarity: string;
-  image: string;
 };
 
 export type Killer = {
