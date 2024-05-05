@@ -18,6 +18,8 @@ export type Killer = {
 
 export type Survivor = {
   name: string;
+  description: string;
+  perks: Perk[];
 };
 
 export type Offering = {

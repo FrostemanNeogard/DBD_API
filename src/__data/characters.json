@@ -5,10 +5,10 @@
       "description": "fejnfnjdsw",
       "perks": [
         {
-          "name": "Agitation"
-        },
-        {
-          "name": "Brutal Strength"
+          "name": "Agitation",
+          "info": "dawda",
+          "image": "dawda",
+          "character": "dawda"
         }
       ]
     },
@@ -17,10 +17,10 @@
       "description": "fejnfnjdsw",
       "perks": [
         {
-          "name": "Lightborne"
-        },
-        {
-          "name": "Bloodhound"
+          "name": "Lightborn",
+          "info": "dawda",
+          "image": "dawda",
+          "character": "dawda"
         }
       ]
     }
@@ -31,10 +31,10 @@
       "description": "fejnfnjdsw",
       "perks": [
         {
-          "name": "Lithe"
-        },
-        {
-          "name": "Alert"
+          "name": "Lithe",
+          "info": "dawda",
+          "image": "dawda",
+          "character": "dawda"
         }
       ]
     },
@@ -43,10 +43,10 @@
       "description": "fejnfnjdsw",
       "perks": [
         {
-          "name": "Boil Over"
-        },
-        {
-          "name": "Windows of opportunity"
+          "name": "Boil Over",
+          "info": "dawda",
+          "image": "dawda",
+          "character": "dawda"
         }
       ]
     }
