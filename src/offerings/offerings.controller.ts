@@ -10,7 +10,7 @@ export class OfferingsController {
   async getAllOfferings(
     @Query('name') name?: string,
     @Query('role') role?: Role,
-  ): Promise<Offering[] | Offering> {
+  ): Promise<Offering[]> {
     if (!name) {
       return await this.offeringsService.getAllOfferings(role);
     }
@@ -18,7 +18,7 @@ export class OfferingsController {
   }
 
   @Get('/random')
-  async getRandomOffering(@Query('role') role?: Role) {
+  async getRandomOffering(@Query('role') role?: Role): Promise<Offering[]> {
     return await this.offeringsService.getRandomOffering(role);
   }
 }

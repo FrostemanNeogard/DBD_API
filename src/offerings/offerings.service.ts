@@ -21,7 +21,7 @@ export class OfferingsService {
   }
 
   // Fetch offering data based on name input
-  async getOffering(name: string): Promise<Offering> {
+  async getOffering(name: string): Promise<Offering[]> {
     const offeringData = this.allOfferings.find(
       (offering) =>
         defaultTextFormatter(offering.name) == defaultTextFormatter(name),
@@ -29,11 +29,11 @@ export class OfferingsService {
     if (!offeringData) {
       throw new BadRequestException(`Offering not found: "${name}"`);
     }
-    return offeringData;
+    return [offeringData];
   }
 
   // Get random offering data
-  async getRandomOffering(role?: Role): Promise<Offering> {
+  async getRandomOffering(role?: Role): Promise<Offering[]> {
     let offerings = [];
     if (!role) {
       offerings = this.allOfferings;
@@ -44,6 +44,6 @@ export class OfferingsService {
     }
     const randomIndex = Math.floor(Math.random() * offerings.length);
     const randomOffering = offerings[randomIndex];
-    return randomOffering;
+    return [randomOffering];
   }
 }
