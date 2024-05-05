@@ -12,13 +12,13 @@ export class KillersService {
   }
 
   // Fetch killer data based on name input
-  async getKiller(name: string) {
+  async getKiller(name: string): Promise<Killer[]> {
     const killerData = this.allKillers.find((killer) => killer.name == name);
     if (!killerData) {
       throw new BadRequestException(`Killer not found: "${name}"`);
     }
 
-    return killerData;
+    return [killerData];
   }
 
   // Get random entry from the "allKillers" array

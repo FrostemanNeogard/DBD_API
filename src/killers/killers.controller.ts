@@ -7,9 +7,7 @@ export class KillersController {
   constructor(private readonly killersService: KillersService) {}
 
   @Get()
-  async getAllKillers(
-    @Query('name') name?: string,
-  ): Promise<Killer | Killer[]> {
+  async getAllKillers(@Query('name') name?: string): Promise<Killer[]> {
     if (!name) {
       return await this.killersService.getAllKillers();
     }
