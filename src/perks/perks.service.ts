@@ -10,14 +10,14 @@ export class PerksService {
   private readonly killerPerks = [...perkData.killer];
 
   // Returns all perks based on role (killer/survivor/all)
-  async getAllPerks(role: Role) {
+  async getAllPerks(role: Role): Promise<Perk[]> {
     if (!role) {
       return this.allPerks;
     }
     return role === 'killer' ? this.killerPerks : this.survivorPerks;
   }
 
-  async getPerkData(name: string): Promise<Perk> {
+  async getPerkData(name: string): Promise<Perk[]> {
     // Format perk name to improve leniency when parsing all perks
     const formattedPerkName: string = formatPerkName(name);
 
@@ -32,10 +32,10 @@ export class PerksService {
     }
 
     // ...otherwise, return the perk data
-    return perk;
+    return [perk];
   }
 
-  async getRandomPerks(role: string, amount: number = 4) {
+  async getRandomPerks(role: Role, amount: number = 4): Promise<Perk[]> {
     // Handle random perks if no role was specified
     if (!role) {
       const randomPerks = [];
