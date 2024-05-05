@@ -12,7 +12,7 @@ export class SurvivorsService {
   }
 
   // Fetch survivor data based on name input
-  async getSurvivor(name: string): Promise<Survivor> {
+  async getSurvivor(name: string): Promise<Survivor[]> {
     const survivorData = this.allSurvivors.find(
       (survivor) => survivor.name == name,
     );
@@ -20,13 +20,13 @@ export class SurvivorsService {
       throw new BadRequestException(`Survivor not found: "${name}"`);
     }
 
-    return survivorData;
+    return [survivorData];
   }
 
   // Get random entry from the "allSurvivors" array
-  async getRandomSurvivor(): Promise<Survivor> {
+  async getRandomSurvivor(): Promise<Survivor[]> {
     const randomIndex = Math.floor(Math.random() * this.allSurvivors.length);
     const randomSurvivor = this.allSurvivors[randomIndex];
-    return randomSurvivor;
+    return [randomSurvivor];
   }
 }

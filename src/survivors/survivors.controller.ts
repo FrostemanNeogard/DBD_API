@@ -7,9 +7,7 @@ export class SurvivorsController {
   constructor(private readonly survivorsService: SurvivorsService) {}
 
   @Get()
-  async getAllSurvivors(
-    @Query('name') name?: string,
-  ): Promise<Survivor | Survivor[]> {
+  async getAllSurvivors(@Query('name') name?: string): Promise<Survivor[]> {
     if (!name) {
       return await this.survivorsService.getAllSurvivors();
     }
@@ -18,7 +16,7 @@ export class SurvivorsController {
 
   // Returns data for a random killer
   @Get('/random')
-  async getRandomSurvivor(): Promise<Survivor> {
+  async getRandomSurvivor(): Promise<Survivor[]> {
     return await this.survivorsService.getRandomSurvivor();
   }
 }
