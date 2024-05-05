@@ -1,0 +1,54 @@
+{
+  "killers": [
+    {
+      "name": "Trapper",
+      "description": "fejnfnjdsw",
+      "perks": [
+        {
+          "name": "Agitation"
+        },
+        {
+          "name": "Brutal Strength"
+        }
+      ]
+    },
+    {
+      "name": "Wraith",
+      "description": "fejnfnjdsw",
+      "perks": [
+        {
+          "name": "Lightborne"
+        },
+        {
+          "name": "Bloodhound"
+        }
+      ]
+    }
+  ],
+  "survivors": [
+    {
+      "name": "Feng",
+      "description": "fejnfnjdsw",
+      "perks": [
+        {
+          "name": "Lithe"
+        },
+        {
+          "name": "Alert"
+        }
+      ]
+    },
+    {
+      "name": "Kate",
+      "description": "fejnfnjdsw",
+      "perks": [
+        {
+          "name": "Boil Over"
+        },
+        {
+          "name": "Windows of opportunity"
+        }
+      ]
+    }
+  ]
+}
