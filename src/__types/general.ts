@@ -14,6 +14,8 @@ export type Item = {
 
 export type Killer = {
   name: string;
+  description: string;
+  perks: Perk[];
 };
 
 export type Survivor = {
