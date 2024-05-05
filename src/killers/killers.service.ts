@@ -22,9 +22,9 @@ export class KillersService {
   }
 
   // Get random entry from the "allKillers" array
-  async getRandomKiller() {
+  async getRandomKiller(): Promise<Killer[]> {
     const randomIndex = Math.floor(Math.random() * this.allKillers.length);
     const randomKiller = this.allKillers[randomIndex];
-    return randomKiller;
+    return [randomKiller];
   }
 }
