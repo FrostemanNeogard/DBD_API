@@ -5,6 +5,7 @@ import {
 } from '@nestjs/common';
 
 import * as itemData from '../__data/items.json';
+import { Item } from 'src/__types/general';
 
 @Injectable()
 export class ItemsService {
@@ -18,14 +19,14 @@ export class ItemsService {
     }
   }
 
-  async getItem(itemName: string) {
+  async getItem(itemName: string): Promise<Item[]> {
     const item = itemData.find((item) => item.name === itemName);
 
     if (!item) {
       throw new BadRequestException(`Item not found: "${itemName}"`);
     }
 
-    return item;
+    return [item];
   }
 
   async getRandomItem(amount: number = 1) {
