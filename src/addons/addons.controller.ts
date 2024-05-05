@@ -13,7 +13,7 @@ export class AddonsController {
 
   @Get(':owner')
   async getAddonData(
-    @Query('owner') owner: string,
+    @Param('owner') owner: string,
     @Query('name') name?: string,
   ) {
     return this.addonsService.getAddonData(owner, name);
