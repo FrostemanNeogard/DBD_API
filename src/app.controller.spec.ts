@@ -1,6 +1,7 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
+import { BadGatewayException } from '@nestjs/common';
 
 describe('AppController', () => {
   let appController: AppController;
@@ -15,8 +16,11 @@ describe('AppController', () => {
   });
 
   describe('root', () => {
-    it('should return "Hello World!"', () => {
-      expect(appController.getHello()).toBe('Hello World!');
+    it('should throw 502', () => {
+      const t = () => {
+        appController.getIndex();
+      };
+      expect(t).toThrow(BadGatewayException);
     });
   });
 });
