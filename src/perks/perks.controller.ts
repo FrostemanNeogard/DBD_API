@@ -19,8 +19,8 @@ export class PerksController {
 
   @Get('/random')
   async getRandomPerks(
-    @Query('role') role?: Role, // Role of the perks to be returned. Either "killer" or "survivor".
-    @Query('amount') amount?: number, // Amount of perks to return data for
+    @Query('role') role?: Role,
+    @Query('amount') amount?: number,
   ): Promise<Perk[]> {
     return await this.perksService.getRandomPerks(role, amount);
   }
