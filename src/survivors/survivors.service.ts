@@ -6,12 +6,10 @@ import * as characterData from '../__data/characters.json';
 export class SurvivorsService {
   private readonly allSurvivors: Survivor[] = [...characterData.survivors];
 
-  // Return all survivors
   async getAllSurvivors(): Promise<Survivor[]> {
     return this.allSurvivors;
   }
 
-  // Fetch survivor data based on name input
   async getSurvivor(name: string): Promise<Survivor[]> {
     const survivorData = this.allSurvivors.find(
       (survivor) => survivor.name == name,
@@ -23,7 +21,6 @@ export class SurvivorsService {
     return [survivorData];
   }
 
-  // Get random entry from the "allSurvivors" array
   async getRandomSurvivor(): Promise<Survivor[]> {
     const randomIndex = Math.floor(Math.random() * this.allSurvivors.length);
     const randomSurvivor = this.allSurvivors[randomIndex];
