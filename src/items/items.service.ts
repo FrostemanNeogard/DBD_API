@@ -30,7 +30,6 @@ export class ItemsService {
   }
 
   async getRandomItem(amount: number = 1) {
-    // Throw error if amount is less than 1
     if (amount <= 0) {
       throw new BadRequestException(
         `The requested number of items must be at least 1.`,
