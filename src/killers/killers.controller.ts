@@ -14,7 +14,6 @@ export class KillersController {
     return await this.killersService.getKiller(name);
   }
 
-  // Returns data for a random killer
   @Get('/random')
   async getRandomKiller(): Promise<Killer[]> {
     return await this.killersService.getRandomKiller();
