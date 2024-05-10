@@ -14,7 +14,6 @@ export class SurvivorsController {
     return await this.survivorsService.getSurvivor(name);
   }
 
-  // Returns data for a random killer
   @Get('/random')
   async getRandomSurvivor(): Promise<Survivor[]> {
     return await this.survivorsService.getRandomSurvivor();
