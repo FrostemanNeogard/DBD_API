@@ -12,7 +12,6 @@ export class OfferingsService {
   private readonly killerOfferings = [...offeringData.killer];
   private readonly survivorOfferings = [...offeringData.survivor];
 
-  // Return all offerings
   async getAllOfferings(role: Role): Promise<Offering[]> {
     if (!role) {
       return this.allOfferings;
@@ -20,7 +19,6 @@ export class OfferingsService {
     return role === 'killer' ? this.killerOfferings : this.survivorOfferings;
   }
 
-  // Fetch offering data based on name input
   async getOffering(name: string): Promise<Offering[]> {
     const offeringData = this.allOfferings.find(
       (offering) =>
@@ -32,7 +30,6 @@ export class OfferingsService {
     return [offeringData];
   }
 
-  // Get random offering data
   async getRandomOffering(role?: Role): Promise<Offering[]> {
     let offerings = [];
     if (!role) {
