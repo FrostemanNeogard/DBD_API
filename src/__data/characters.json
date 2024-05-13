@@ -2,25 +2,421 @@
   "killers": [
     {
       "name": "Trapper",
-      "description": "fejnfnjdsw",
+      "description": "",
       "perks": [
         {
-          "name": "Agitation",
-          "info": "dawda",
-          "image": "dawda",
-          "character": "dawda"
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
         }
       ]
     },
     {
       "name": "Wraith",
-      "description": "fejnfnjdsw",
+      "description": "",
       "perks": [
         {
-          "name": "Lightborn",
-          "info": "dawda",
-          "image": "dawda",
-          "character": "dawda"
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Hillbilly",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Nurse",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Huntress",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Shape",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Hag",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Doctor",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Pig",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Clown",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Spirit",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Legion",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Plague",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Ghostface",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Demogorgon",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Deathslinger",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Executioner",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Blight",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Twins",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Trickster",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Nemesis",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Artist",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Unknown",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Good Guy",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Xenomorph",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Singularity",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Skull merchant",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Knight",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Mastermind",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Dredge",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Onryo",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Cenobite",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Oni",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Nightmare",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Cannibal",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
         }
       ]
     }
