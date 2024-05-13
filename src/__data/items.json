@@ -4,7 +4,71 @@
     "rarity": "Uncommon"
   },
   {
+    "name": "Sport Flashlight",
+    "rarity": ""
+  },
+  {
+    "name": "Utility Flashlight",
+    "rarity": ""
+  },
+  {
+    "name": "Broken key",
+    "rarity": ""
+  },
+  {
+    "name": "Dull Key",
+    "rarity": ""
+  },
+  {
+    "name": "Skeleton Key",
+    "rarity": ""
+  },
+  {
+    "name": "Map",
+    "rarity": ""
+  },
+  {
+    "name": "Rainbow Map",
+    "rarity": ""
+  },
+  {
+    "name": "Camping Aid Kit",
+    "rarity": ""
+  },
+  {
+    "name": "First Aid Kit",
+    "rarity": ""
+  },
+  {
+    "name": "Emergency Med-Kit",
+    "rarity": ""
+  },
+  {
+    "name": "Ranger Med-Kit",
+    "rarity": ""
+  },
+  {
+    "name": "Worn-Out Tools",
+    "rarity": ""
+  },
+  {
     "name": "Toolbox",
-    "rarity": "Common"
+    "rarity": ""
+  },
+  {
+    "name": "Commodious Toolbox",
+    "rarity": ""
+  },
+  {
+    "name": "Mechanic's Toolbox",
+    "rarity": ""
+  },
+  {
+    "name": "Alex's Toolbox",
+    "rarity": ""
+  },
+  {
+    "name": "Engineer's Toolbox",
+    "rarity": ""
   }
 ]
