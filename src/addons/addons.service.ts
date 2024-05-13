@@ -42,7 +42,7 @@ export class AddonsService {
       throw new BadRequestException(`Couldn't find the given addon: '${name}'`);
     }
 
-    return addon;
+    return [addon];
   }
 
   async getRandomAddons(owner: string, amount: number = 2) {
