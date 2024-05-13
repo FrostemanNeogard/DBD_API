@@ -25,28 +25,485 @@
       ]
     }
   ],
+
   "survivors": [
     {
-      "name": "Feng",
-      "description": "fejnfnjdsw",
+      "name": "Dwight Fairfield",
+      "description": "",
       "perks": [
         {
-          "name": "Lithe",
-          "info": "dawda",
-          "image": "dawda",
-          "character": "dawda"
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
         }
       ]
     },
     {
-      "name": "Kate",
-      "description": "fejnfnjdsw",
+      "name": "Meg Thomas",
+      "description": "",
       "perks": [
         {
-          "name": "Boil Over",
-          "info": "dawda",
-          "image": "dawda",
-          "character": "dawda"
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Claudette Morel",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Jake Park",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Nea Karlsson",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "William \"Bill\" Overbeck",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "David King",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Laurie Strode",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Feng Min",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Detective Tapp",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Kate Denson",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Adam Francis",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Jeff Johansen",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Ashley J. Williams",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Nancy Wheeler",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Steve Harrington",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Zarina Kassir",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Cheryl Manson",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Felix Richter",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Yun-Jin Lee",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Jill Valentine",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Leon S. Kennedy",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Jonah Vasquez",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Gabriel Soma",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Sable Ward",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Alan Wake",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Ellen Ripley",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Nicolas Cage",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Renato Lyra",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Thalita Lyra",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Vittorio Toscano",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Ada Wong",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Haddie Kaur",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Yoichi Asakawa",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Mikaela Reid",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Élodie Rakoto",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Yui Kimura",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Jane Romero",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Quentin Smith",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
+        }
+      ]
+    },
+    {
+      "name": "Ace Visconti",
+      "description": "",
+      "perks": [
+        {
+          "name": "",
+          "info": "",
+          "image": "",
+          "character": ""
         }
       ]
     }
