@@ -42,7 +42,7 @@ export class PerksService {
       return randomPerks;
     }
 
-    // (TODO: Move this to a better place)
+    // TODO: Move this to a better place
     const validRoles = ['killer', 'survivor'];
 
     if (!validRoles.includes(role)) {
