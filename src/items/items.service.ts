@@ -6,6 +6,7 @@ import {
 
 import * as itemData from '../__data/items.json';
 import { Item } from 'src/__types/general';
+import { defaultTextFormatter } from 'src/__util/functions';
 
 @Injectable()
 export class ItemsService {
@@ -20,7 +21,10 @@ export class ItemsService {
   }
 
   async getItem(itemName: string): Promise<Item[]> {
-    const item = itemData.find((item) => item.name === itemName);
+    const item = itemData.find(
+      (item) =>
+        defaultTextFormatter(item.name) === defaultTextFormatter(itemName),
+    );
 
     if (!item) {
       throw new BadRequestException(`Item not found: "${itemName}"`);

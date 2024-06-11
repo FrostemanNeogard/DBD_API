@@ -15,7 +15,7 @@ export class ItemsController {
   }
 
   @Get('/random')
-  async getRandomItem(): Promise<Item[]> {
-    return await this.itemsService.getRandomItem();
+  async getRandomItem(@Query('amount') amount?: string): Promise<Item[]> {
+    return await this.itemsService.getRandomItem(parseInt(amount));
   }
 }
