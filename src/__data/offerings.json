@@ -1,22 +1,46 @@
 {
   "killer": [
     {
-      "name": "Putrid Oak",
-      "description": "fernwjfjngs"
+      "name": "Brown",
+      "description": "Missing description."
     },
     {
-      "name": "Mori",
-      "description": "fernwjfjngs"
+      "name": "Yellow",
+      "description": "Missing description."
+    },
+    {
+      "name": "Green",
+      "description": "Missing description."
+    },
+    {
+      "name": "Purple",
+      "description": "Missing description."
+    },
+    {
+      "name": "Iridescent",
+      "description": "Missing description."
     }
   ],
   "survivor": [
     {
-      "name": "Petrified Oak",
-      "description": "fernwjfjngs"
+      "name": "Brown",
+      "description": "Missing description."
     },
     {
-      "name": "Broken coin",
-      "description": "fernwjfjngs"
+      "name": "Yellow",
+      "description": "Missing description."
+    },
+    {
+      "name": "Green",
+      "description": "Missing description."
+    },
+    {
+      "name": "Purple",
+      "description": "Missing description."
+    },
+    {
+      "name": "Iridescent",
+      "description": "Missing description."
     }
   ]
 }
